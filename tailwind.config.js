@@ -4,6 +4,8 @@ module.exports = {
   theme: {
     color: {
       green: "#2CD889",
+      text1: "#6F767E",
+      text2: "#C4C4C4",
     },
     spacing: {
       px: "1px",

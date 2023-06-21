@@ -15,16 +15,18 @@ function Login() {
           <img src={path} alt="Path" />
         </div>
         <div className="  w-96  rounded-xl bg-white bg-clip-border text-gray-700 shadow-md">
-          <div className="p-5 mt-4 pt-4">
+          <div className="block p-5 mt-4 pt-4">
             <h5 className="mb-2 block font-sans text-xl font-semibold text-gray-color leading-snug tracking-normal">
               დეპარტამენტები
             </h5>
-            <span className="  w-80  font-extrabold text-3xl">10</span>
-            <p>დღეს</p>
+            <span className="text-[#6F767E]  w-80  font-extrabold text-3xl">
+              10
+            </span>
+            <p className="text-[#C4C4C4]">დღეს</p>
 
-            <div className="flex justify-between items-center">
+            <div className=" justify-between items-center">
               <span
-                className="font-bold
+                className=" font-bold
             bg-green-color  text-xs 
              mr-32  px-5 py-0.5 
             rounded  text-white
@@ -32,7 +34,7 @@ function Login() {
               >
                 +2
               </span>
-              <div className="absolute inset-y-40 mr-10 right-0 h-16 w-16 border border-[#2CD889] rounded-full">
+              <div className="absolute inset-y-40 mr-12 right-0 h-16 w-16 border border-[#2CD889] rounded-full">
                 <img src={circle} />
               </div>
             </div>
