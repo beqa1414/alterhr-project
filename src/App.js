@@ -1,7 +1,12 @@
 import "./App.css";
+import Login from "./Components/Login";
 
 function App() {
-  return <div className="App">hello reactJS</div>;
+  return (
+    <div className="App">
+      <Login />
+    </div>
+  );
 }
 
 export default App;
