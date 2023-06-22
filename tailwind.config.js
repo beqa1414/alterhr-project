@@ -52,6 +52,9 @@ module.exports = {
         "gray-color": "#6f767e",
         "green-color": "#22CE8B",
       },
+      width: {
+        128: "32rem",
+      },
     },
   },
   plugins: [],
